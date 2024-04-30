@@ -1,0 +1,34 @@
+Algoritmo "Missão 1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/04/2024
+Var
+   soma, N, i: inteiro
+
+Inicio
+      soma <- 0
+
+      para i de 7 ate 2 passo -1 faca
+
+           N <- 2
+
+           enquanto (i MOD N <> 0) faca
+
+              N <- N + 1
+
+           fimenquanto
+
+           se (N = i) entao
+
+              escreval("O número ", i, " é primo")
+
+              soma <- soma + i
+
+           fimse
+
+      fimpara
+
+      escreval("A soma de todos os números primos menores iguais a 7 é:", soma)
+Fimalgoritmo
