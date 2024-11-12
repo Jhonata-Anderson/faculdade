@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #292929;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+header {
+    height: 60px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+footer {
+    height: 25px;
+    background-color: #1b1b1b;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+}

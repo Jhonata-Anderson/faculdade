@@ -1,0 +1,10 @@
+.card {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0;
+}
